@@ -7,7 +7,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-  padding-top: 50px;
+  padding-top: 30px;
 	font-family: 'RigidSquare', sans-serif;
 }
 
@@ -43,12 +43,12 @@ button:hover{
 
 .title .btn{
   position: absolute;
-  transform: translate(-50%, -150%);
+  transform: translate(-50%, -200%);
 }
 
 .arrow{
   position: absolute;
-  transform: translate(-50%, -5%);
+  transform: translate(-50%, -80%);
 }
 
 /* description for about */
@@ -64,12 +64,6 @@ button:hover{
   margin-left: 10%;
 }
 
-#floater {
-    position: absolute;
-    /* -webkit-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-    z-index: 1; */
-}
 
 #about {
 	color: #3434f4;
@@ -94,7 +88,7 @@ button:hover{
 
 .theme_container {
   height: 600px;
-	margin-top: 300px;
+	margin-top: 200px;
 }
 
 .titletheme {
@@ -124,7 +118,7 @@ button:hover{
 
 .finaldeliverables_container{
   height: 600px;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 #finaldeliverables {
@@ -161,7 +155,7 @@ button:hover{
 
 .eventschedule_container {
 	height: 800px;
-	margin-top: 120px;
+	margin-top: 100px;
 }
 
 #eventschedule {
@@ -265,8 +259,8 @@ button:hover{
 }
 
 #dotshape1 {
-	width: 25px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
 	border-radius: 50px;
 	background-color: #3434f4;
 	top: 1305px;
@@ -276,42 +270,42 @@ button:hover{
 }
 
 #dotshape2 {
-	width: 10px;
-	height: 10px;
+	width: 24px;
+	height: 24px;
 	border-radius: 50px;
 	background-color: #3434f4;
-	top: 1454px;
-	right: 169px;
+	top: 2500px;
+	right: 250px;
 	transform: scale(2.25);
 }
 
 #dotshape3 {
-	width: 18px;
-	height: 18px;
+	width: 30px;
+	height: 30px;
 	border-radius: 50px;
 	background-color: #3434f4;
-	top: 1610px;
-	left: 488px;
+	top: 1450px;
+	left: 600px;
 	transform: scale(2.25);
 }
 
 #dotshape4 {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   border-radius: 50px;
   background-color: #3434f4;
-  top: 1980px;
-  right: 265px;
+  top: 1900px;
+  right: 240px;
   transform: scale(2.25);
 }
 
 #dotshape5 {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   border-radius: 50px;
   background-color: #3434f4;
-  top: 2300px;
-  left: 720px;
+  top: 2100px;
+  left: 900px;
   transform: scale(2.25);
 }
 
@@ -322,43 +316,43 @@ button:hover{
   border-radius: 50px;
   background-color: #3434f4;
   top: 2680px;
-  right: 550px;
+  left: 200px;
   transform: scale(2.25);
 }
 
 #dotshape7 {
-  width: 10px;
-  height: 10px;
+  width: 40px;
+  height: 40px;
   border-radius: 50px;
   background-color: #3434f4;
-  top: 3325px;
-  left: 235px;
+  top: 3200px;
+  left: 400px;
   transform: scale(2.25);
 }
 
-/* #dotshape8 {
-  width: 140px;
-  height: 140px;
-  border-radius: 320px;
+#dotshape8 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
   background-color: #3434f4;
-  top: 4173px;
+  top: 3400px;
   left: 248px;
   transform: scale(2.25);
-} */
+}
 
 
 #dotshape9 {
-  width: 16px;
-  height: 16px;
+  width: 35px;
+  height: 35px;
   border-radius: 50px;
   background-color: #3434f4;
-  top: 2910px;
-  left: 681px;
+  top: 2730px;
+  right: 350px;
   transform: scale(2.25);
 }
 
 
-.linedrawing{
+/* .linedrawing{
   margin-left: 18%;
   position: absolute;
   top: 1300px;
@@ -383,4 +377,4 @@ button:hover{
   margin-left: 25%;
   position: absolute;
   top: 4190px;
-}
+} */
