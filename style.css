@@ -7,17 +7,17 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-  padding-top: 30px;
+  padding-top: 2vh;
 	font-family: 'RigidSquare', sans-serif;
 }
 
-body {
+/*body {
 	position: absolute;
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
-}
+}*/
 
 button{
   font-family: 'RigidSquare', sans-serif;
@@ -37,11 +37,14 @@ button:hover{
 }
 
 
-.title{
+.landing{
   text-align: center;
+  height: 100vh;
+  /*margin-top: 5vh;*/
 }
 
-.title .btn{
+
+/*.landing .btn{
   position: absolute;
   transform: translate(-50%, -200%);
 }
@@ -49,24 +52,32 @@ button:hover{
 .arrow{
   position: absolute;
   transform: translate(-50%, -80%);
+}*/
+
+.title{
+  font-family: 'RigidSquare', sans-serif;
+  font-weight: "Medium";
+  font-size: 50px;
+  text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
 }
 
 /* description for about */
 .about_container {
-	height: 200px;
-	margin-top: 200px;
+	height: 40vh;
+	margin-top: 10vh;
 }
 
-.titleabout {
-	font-family: 'RigidSquare', sans-serif;
-	font-weight: "Medium";
-	font-size: 50px;
+.about {
   margin-left: 10%;
 }
 
 
 #about {
-	color: #3434f4;
+  color: #3434f4;
 	display: inline-block;
 	width: 30%;
 }
@@ -75,7 +86,7 @@ button:hover{
   display: inline-block;
 	width: 50%;
 	float: right;
-  margin-top: 2.3%;
+  margin-top: 1%;
   margin-right: 10%;
   font-family: titling-gothic-fb, sans-serif;
   font-weight: 300;
@@ -87,17 +98,15 @@ button:hover{
 
 
 .theme_container {
-  height: 600px;
-	margin-top: 200px;
+  height: 40vh;
+  margin-top: 10vh;
 }
 
-.titletheme {
-  font-family: 'RigidSquare', sans-serif;
-  font-weight: "Medium";
-  font-size: 50px;
-  margin-left: 10%;
+.theme {
+  margin-left: 9.5%;
   padding-top: 7%;
-  line-height: 1.8em;
+  padding-bottom: 2vh;
+  line-height: 130%;
 }
 
 #theme {
@@ -117,14 +126,11 @@ button:hover{
 
 
 .finaldeliverables_container{
-  height: 600px;
-  margin-top: 80px;
+  height: 40vh;
+  margin-top: 10vh;
 }
 
 #finaldeliverables {
-  font-family: 'RigidSquare', sans-serif;
-  font-weight: "Medium";
-  font-size: 50px;
   width: 30%;
 	color: #3434f4;
 	float: right;
@@ -140,7 +146,7 @@ button:hover{
 	grid-template-columns: 40% 50%;
 	grid-template-rows: 50% 50% 50%;
 	grid-row-gap: 20px;
-  padding-top: 9%;
+  padding-top: 8.5%;
   margin-left: 10%;
   font-family: titling-gothic-fb, sans-serif;
   font-weight: 300;
@@ -154,15 +160,15 @@ button:hover{
 
 
 .eventschedule_container {
-	height: 800px;
-	margin-top: 100px;
+  height: 40vh;
+  margin-top: 10vh;
 }
 
 #eventschedule {
 	float: right;
 	width: 50%;
 	color: #3434f4;
-  margin-right: 10%;
+  margin-right: 12%;
   font-family: 'RigidSquare', sans-serif;
   font-weight: "Medium";
   font-size: 50px;
@@ -186,6 +192,7 @@ button:hover{
   border-width: 3px;
   padding: 50px;
   border-color: #3434f4;
+  background-color: white;
 }
 
 .time {
@@ -206,13 +213,11 @@ button:hover{
 #speaker {
 	color: #3434f4;
 	display: inline-block;
-	width: 30%;
+	/*width: 30%;*/
+  width: 100%;
 }
 
-.titlespeaker {
-	font-family: 'RigidSquare', sans-serif;
-	font-weight: "Medium";
-	font-size: 50px;
+.speaker {
   margin-left: 10%;
   line-height: 1em;
 }
@@ -352,7 +357,7 @@ button:hover{
 }
 
 
-/* .linedrawing{
+ .linedrawing{
   margin-left: 18%;
   position: absolute;
   top: 1300px;
@@ -377,4 +382,4 @@ button:hover{
   margin-left: 25%;
   position: absolute;
   top: 4190px;
-} */
+} 
